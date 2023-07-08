@@ -284,6 +284,13 @@ AddDefaultCharset utf-8
 	# Enable URL rewriting
 	RewriteEngine On
 
+	# force https
+    RewriteCond %{HTTPS} off
+    RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ https://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+
 	# Store the current location in an environment variable CWD to use
 	# mod_rewrite in .htaccess files without knowing the RewriteBase
 	RewriteCond $0#%{REQUEST_URI} ([^#]*)#(.*)\1$

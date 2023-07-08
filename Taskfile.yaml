@@ -1,0 +1,5 @@
+version: '3'
+tasks:
+  serve:
+      cmds:
+      - open 'http://localhost:8419' && TYPO3_CONTEXT=Development php -S localhost:8419 -t public

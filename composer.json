@@ -1,8 +1,14 @@
 {
-	"name": "typo3/cms-base-distribution",
-	"description" : "TYPO3 CMS Base Distribution",
+	"name": "fab/burkinamis-distribution",
+	"description": "Burkinamis website",
 	"license": "GPL-2.0-or-later",
 	"type": "project",
+	"repositories": [
+		{
+			"type": "path",
+			"url": "./packages/*"
+		}
+	],
 	"config": {
 		"allow-plugins": {
 			"typo3/class-alias-loader": true,
@@ -40,6 +46,7 @@
 		"typo3/cms-t3editor": "^12.4.0",
 		"typo3/cms-tstemplate": "^12.4.0",
 		"typo3/cms-viewpage": "^12.4.0",
-		"typo3/cms-webhooks": "^12.4.0"
+		"typo3/cms-webhooks": "^12.4.0",
+		"fab/site-package": "@dev"
 	}
 }

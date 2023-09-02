@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:backend/Resources/Private/Language/locallang_pagetsconfig.xlf" date="2023-01-19T14:41:00Z" product-name="cms" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="module.pagetsconfig.title" resname="module.pagetsconfig.title" approved="yes">
+        <source>Page TSconfig</source>
+        <target state="final">Page TSconfig</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig.shortDescription" resname="module.pagetsconfig.shortDescription" approved="yes">
+        <source>Page TSconfig tools</source>
+        <target state="final">Outils de page TSconfig</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig.noAccess" resname="module.pagetsconfig.noAccess" approved="yes">
+        <source>Access to this module denied.</source>
+        <target state="final">Accès à ce module refusé.</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_pages.pagetitle" resname="module.pagetsconfig_pages.pagetitle" approved="yes">
+        <source>Page title</source>
+        <target state="final">Titre de la page</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_pages.written_tsconfig_lines" resname="module.pagetsconfig_pages.written_tsconfig_lines" approved="yes">
+        <source>Number of lines of code in field "TSconfig"</source>
+        <target state="final">Nombre de lignes de code dans le champ "TSconfig"</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_active.activePageTsConfig" resname="module.pagetsconfig_active.activePageTsConfig" approved="yes">
+        <source>Page TSconfig</source>
+        <target state="final">Page TSconfig</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_includes.description" resname="module.pagetsconfig_includes.description" approved="yes">
+        <source>Overview of the included TypoScript and include order for the current page.</source>
+        <target state="final">Aperçu du TypoScript inclus et de l'ordre d'inclusion pour la page actuelle.</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_includes.pagetsconfig" resname="module.pagetsconfig_includes.pagetsconfig" approved="yes">
+        <source>Page TSconfig</source>
+        <target state="final">Page TSconfig</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_includes.panel.header.syntaxErrors" resname="module.pagetsconfig_includes.panel.header.syntaxErrors" approved="yes">
+        <source>Syntax scanner warnings</source>
+        <target state="final">Avertissements du scanner de syntaxe</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_includes.panel.info.syntaxErrorCount.single" resname="module.pagetsconfig_includes.panel.info.syntaxErrorCount.single" approved="yes">
+        <source>%s syntax warning</source>
+        <target state="final">Avertissement de syntaxe %s</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_includes.panel.info.syntaxErrorCount.multiple" resname="module.pagetsconfig_includes.panel.info.syntaxErrorCount.multiple" approved="yes">
+        <source>%s syntax warnings</source>
+        <target state="final">Avertissements de syntaxe %s</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_includes.syntaxError.sourceCode" resname="module.pagetsconfig_includes.syntaxError.sourceCode" approved="yes">
+        <source>Show affected code snippet</source>
+        <target state="final">Afficher le fragment de code affecté</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_includes.syntaxError.type.line.invalid" resname="module.pagetsconfig_includes.syntaxError.type.line.invalid" approved="yes">
+        <source>Invalid line in "%1$s", line number "%2$s"</source>
+        <target state="final">Ligne invalide dans "%1$s", numéro de ligne "%2$s"</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_includes.syntaxError.type.brace.excess" resname="module.pagetsconfig_includes.syntaxError.type.brace.excess" approved="yes">
+        <source>Brace in excess in "%1$s", line number "%2$s"</source>
+        <target state="final">Parenthèse en excès dans "%1$s", numéro de ligne "%2$s"</target>
+      </trans-unit>
+      <trans-unit id="module.pagetsconfig_includes.syntaxError.type.brace.missing" resname="module.pagetsconfig_includes.syntaxError.type.brace.missing" approved="yes">
+        <source>Brace missing in "%1$s", line number "%2$s"</source>
+        <target state="final">Parenthèse manquante dans "%1$s", numéro de ligne "%2$s"</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

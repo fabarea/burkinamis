@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Usage:
+# ddev db-load
+
+# Exit the script on error and unbound variable
+set -eu
+
+# Load common configuration
+source "/mnt/ddev_config/commands/config.sh"
+
+echo "Reset database..."
+mysql -u db -pdb -e "DROP DATABASE IF EXISTS db; CREATE DATABASE db;"
+
+echo "Import dump..."
+mysql -u db -pdb db < ./${DB_NAME}.sql
+
+echo "Update schema..."
+./vendor/bin/typo3cms database:updateschema

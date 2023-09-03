@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Usage:
+# ddev db-fetch
+
+# Exit the script on error and unbound variable
+set -eu
+
+# Load common configuration
+source "/mnt/ddev_config/commands/config.sh"
+
+echo "Dump remote database..."
+ssh ${SSH_HOST} -p ${SSH_PORT} "mysqldump -u ${DB_USER} -p'${DB_PASSWORD}' -P ${DB_PORT} -h ${DB_HOST} -c ${DB_NAME} | gzip > /tmp/${DB_NAME}.sql.gz"
+
+echo "Fetching dump..."
+scp -P ${SSH_PORT} ${SSH_HOST}:/tmp/${DB_NAME}.sql.gz ./${DB_NAME}.sql.gz
+
+echo "Extracting file..."
+gzip -d ./${DB_NAME}.sql.gz

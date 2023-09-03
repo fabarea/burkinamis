@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Usage:
+# ddev uploads
+
+# Exit the script on error and unbound variable
+set -eu
+
+# Load common configuration
+source "/mnt/ddev_config/commands/config.sh"
+
+rsync -av -e "ssh -p ${SSH_PORT}" --delete ${SSH_HOST}:${DOCUMENT_ROOT}/uploads "${LOCAL_DOCUMENT_ROOT}"/

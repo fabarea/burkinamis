@@ -7,3 +7,14 @@
 // Import needed Bootstrap Package Files
 //
 @import "EXT:bootstrap_package/Resources/Public/Scss/bootstrap5/theme";
+
+.navbar-mainnavigation .navbar-brand-image > .navbar-brand-logo-normal {
+  display: inline;
+}
+
+footer {
+  .frame {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

@@ -28,6 +28,7 @@ return [
     'EXTCONF' => [
         'lang' => [
             'availableLanguages' => [
+                'de',
                 'fr',
             ],
         ],

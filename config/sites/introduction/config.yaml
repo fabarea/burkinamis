@@ -18,5 +18,16 @@ languages:
     direction: ''
     flag: fr
     websiteTitle: ''
+  -
+    title: Allemand
+    enabled: true
+    locale: de-CH
+    base: /de
+    websiteTitle: Burkinamis
+    navigationTitle: ''
+    fallbackType: strict
+    fallbacks: ''
+    flag: de
+    languageId: 1
 rootPageId: 1
 websiteTitle: Burkinamis

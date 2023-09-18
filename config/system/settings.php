@@ -12,16 +12,12 @@ return [
         'Connections' => [
             'Default' => [
                 'charset' => 'utf8mb4',
-                'dbname' => 'fy03v_bknmi',
                 'driver' => 'mysqli',
-                'host' => 'fy03v.myd.infomaniak.com',
-                'password' => 'QeD3VNGEKCeJK44tsExHLs6DsWQUcbEb',
                 'port' => 3306,
                 'tableoptions' => [
                     'charset' => 'utf8mb4',
                     'collate' => 'utf8mb4_unicode_ci',
                 ],
-                'user' => 'fy03v_bknmi',
             ],
         ],
     ],
@@ -160,10 +156,12 @@ return [
                 ],
             ],
         ],
+        'ddmmyy' => 'd.m.Y',
         'devIPmask' => '',
         'displayErrors' => 0,
         'encryptionKey' => '27052e29fb214673ba4c7bfcb53e28e6a8159e5f724afe78b5aa3ef49b198be08d9a2e1e7f89438dee749617478b9b09',
         'exceptionalErrors' => 4096,
+        'phpTimeZone' => 'Europe/Zurich',
         'sitename' => 'Burkinamis',
         'systemMaintainers' => [
             1,

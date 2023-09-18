@@ -146,13 +146,12 @@
 				<f:for each="{newsItem.allRelatedSorted}" as="related">
 					<li class="list-group-item">
 						<span class="news-related-news-date me-2">
-							<f:format.date format="{f:translate(key:'dateFormat')}">{related.datetime}</f:format.date>
+							<f:format.date format="d.m.Y">{related.datetime}</f:format.date>
 						</span>
 						<n:link newsItem="{related}" settings="{settings}" title="{related.title}">
 							{related.title}
 						</n:link>
 					</li>
-
 				</f:for>
 			</ul>
 		</div>

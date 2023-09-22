@@ -31,6 +31,10 @@
         <source>Used for localized date and currency formats. E.g. "de_DE" or "en_US.UTF-8".</source>
         <target state="final">Utilisé pour les formats de date et de monnaie locaux. Par exemple "de_DE" ou "en_US.UTF-8".</target>
       </trans-unit>
+      <trans-unit id="site_language.hreflang" resname="site_language.hreflang" approved="yes">
+        <source>Optional, used for "hreflang" attributes - if empty, the information is retrieved from the locale</source>
+        <target state="final">Optionnel, utilisé pour les attributs "hreflang" - s'il est vide, les informations seront récupérées à partir de la locale</target>
+      </trans-unit>
       <trans-unit id="site_language.websiteTitle" resname="site_language.websiteTitle" approved="yes">
         <source>With this language based Website title, you can override the Website title for this language</source>
         <target state="final">Avec ce titre de site Web basé sur la langue, vous pouvez personnaliser le titre du site Web pour cette langue</target>

@@ -47,6 +47,10 @@
         <source>Users</source>
         <target state="final">Utilisateurs</target>
       </trans-unit>
+      <trans-unit id="user" resname="user" approved="yes">
+        <source>User</source>
+        <target state="final">Utilisateur</target>
+      </trans-unit>
       <trans-unit id="yes" resname="yes" approved="yes">
         <source>Yes</source>
         <target state="final">Oui</target>
@@ -283,6 +287,10 @@
         <source>Groups</source>
         <target state="final">Groupes</target>
       </trans-unit>
+      <trans-unit id="group" resname="group" approved="yes">
+        <source>Group</source>
+        <target state="final">Groupe</target>
+      </trans-unit>
       <trans-unit id="information.groups.direct" resname="information.groups.direct" approved="yes">
         <source>Directly assigned</source>
         <target state="final">Assigné directement</target>
@@ -446,6 +454,14 @@
       <trans-unit id="filemount.storage" resname="filemount.storage" approved="yes">
         <source>Storage</source>
         <target state="final">Stockage</target>
+      </trans-unit>
+      <trans-unit id="filemount.amount.multiple" resname="filemount.amount.multiple" approved="yes">
+        <source>%s Filemounts</source>
+        <target state="final">%s Montages de fichiers</target>
+      </trans-unit>
+      <trans-unit id="filemount.amount.singular" resname="filemount.amount.singular" approved="yes">
+        <source>1 Filemount</source>
+        <target state="final">1 montage de fichier</target>
       </trans-unit>
     </body>
   </file>

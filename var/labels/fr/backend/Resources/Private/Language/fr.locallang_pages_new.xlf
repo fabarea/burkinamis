@@ -47,6 +47,10 @@
         <source>New page structure</source>
         <target state="final">Nouvelle structure de page</target>
       </trans-unit>
+      <trans-unit id="newSubPages.pageTitle" resname="newSubPages.pageTitle" approved="yes">
+        <source>Page title</source>
+        <target state="final">Titre de la page</target>
+      </trans-unit>
       <trans-unit id="noPagesCreated.title" resname="noPagesCreated.title" approved="yes">
         <source>No pages added</source>
         <target state="final">Aucune page ajoutée</target>

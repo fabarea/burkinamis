@@ -7,9 +7,21 @@
         <source>Cancel</source>
         <target state="final">Annuler</target>
       </trans-unit>
+      <trans-unit id="verify" resname="verify" approved="yes">
+        <source>Verify</source>
+        <target state="final">Vérifier</target>
+      </trans-unit>
       <trans-unit id="password" resname="password" approved="yes">
         <source>Password</source>
         <target state="final">Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="verifyWithUserPassword" resname="verifyWithUserPassword" approved="yes">
+        <source>Verify with user password</source>
+        <target state="final">Vérifier avec le mot de passe de l'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="verifyWithInstallToolPassword" resname="verifyWithInstallToolPassword" approved="yes">
+        <source>Verify with Install Tool password</source>
+        <target state="final">Vérifier avec le mot de passe de l'outil d'installation</target>
       </trans-unit>
       <trans-unit id="accessGranted" resname="accessGranted" approved="yes">
         <source>Access granted</source>

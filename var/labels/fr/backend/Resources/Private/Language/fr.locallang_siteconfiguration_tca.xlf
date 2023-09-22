@@ -31,6 +31,16 @@
         <source>Available Languages for this Site</source>
         <target state="final">Langues disponibles pour ce site</target>
       </trans-unit>
+      <trans-unit id="site.languages.choosePreset" resname="site.languages.choosePreset" approved="yes">
+        <source>Choose a preset...</source>
+        <target state="final">Choisir un préréglage...</target>
+        <note>First select option of site language preset single select drop down</note>
+      </trans-unit>
+      <trans-unit id="site.languages.chooseExistingFromOtherSite" resname="site.languages.chooseExistingFromOtherSite" approved="yes">
+        <source>Use Language from existing site...</source>
+        <target state="final">Utiliser la langue d'un site existant...</target>
+        <note>First select option of site language preset single select drop down</note>
+      </trans-unit>
       <trans-unit id="site.languages.description" resname="site.languages.description" approved="yes">
         <source>Select an already existing language from another site or create a new one.</source>
         <target state="final">Sélectionnez une langue déjà existante sur un autre site ou créez-en une nouvelle.</target>
@@ -102,6 +112,10 @@
       <trans-unit id="site_language.locale" resname="site_language.locale" approved="yes">
         <source>Locale</source>
         <target state="final">Locale</target>
+      </trans-unit>
+      <trans-unit id="site_language.hreflang" resname="site_language.hreflang" approved="yes">
+        <source>Alternative attribute for "hreflang" tags</source>
+        <target state="final">Valeur alternative de l'attribut "hreflang"</target>
       </trans-unit>
       <trans-unit id="site_language.enabled" resname="site_language.enabled" approved="yes">
         <source>Visible in Frontend</source>

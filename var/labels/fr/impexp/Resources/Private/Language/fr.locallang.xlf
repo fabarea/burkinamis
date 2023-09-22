@@ -275,6 +275,10 @@
         <source>File</source>
         <target state="final">Fichier</target>
       </trans-unit>
+      <trans-unit id="importdata_fromPathS" resname="importdata_fromPathS" approved="yes">
+        <source>From path: %s</source>
+        <target state="final">A partir du chemin : %s</target>
+      </trans-unit>
       <trans-unit id="importdata_noteNoDecompressorAvailable" resname="importdata_noteNoDecompressorAvailable" approved="yes">
         <source>NOTE: No decompressor available for compressed files!</source>
         <target state="final">NOTE : aucun décompresseur disponible pour les fichiers compressés!</target>

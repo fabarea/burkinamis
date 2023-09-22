@@ -207,6 +207,10 @@
         <source>No files found in %s for "%s"</source>
         <target state="final">Aucun fichier trouvé dans %s pour "%s"</target>
       </trans-unit>
+      <trans-unit id="recordNotFound" resname="recordNotFound" approved="yes">
+        <source>Record not found</source>
+        <target state="final">Enregistrement non trouvé</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

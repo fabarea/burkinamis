@@ -203,6 +203,10 @@
         <source>Record "%s" has been successfully saved.</source>
         <target state="final">L'enregistrement "%s" a été sauvegardé avec succès.</target>
       </trans-unit>
+      <trans-unit id="notification.mass_saving.message" resname="notification.mass_saving.message" approved="yes">
+        <source>%s records have been successfully saved.</source>
+        <target state="final">%s enregistrements ont été enregistrés avec succès.</target>
+      </trans-unit>
       <trans-unit id="search.find_record" resname="search.find_record" approved="yes">
         <source>Find records</source>
         <target state="final">Rechercher des enregistrements</target>

@@ -107,6 +107,16 @@
         <source>Here you can check the integrity of the database tables configured by the $TCA. For instance all records must belong to a page record. You can also get a view of the total pagetree including deleted pages. Finally you've got access to a global database search facility.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</source>
         <target state="final">Vous pouvez ici contrôler l'intégrité de la base de données tel que configuré par le $TCA. Par exemple, tous les enregistrements doivent être rattachés à une page. Vous pouvez également avoir une vue de l'ensemble de l'arborescence des pages, y compris les pages supprimées. Enfin, vous avez accès à un moteur de recherche sur la globalité de la base de données.&lt;br /&gt;&lt;em&gt;Accès pour les administrateurs uniquement !&lt;/em&gt;</target>
       </trans-unit>
+      <trans-unit id="search.placeholder" resname="search.placeholder" approved="yes">
+        <source>Search Word</source>
+        <target state="final">Rechercher un mot</target>
+        <note>Placeholder text for search in database input</note>
+      </trans-unit>
+      <trans-unit id="search.submit" resname="search.submit" approved="yes">
+        <source>Search All Records</source>
+        <target state="final">Rechercher dans tous les enregistrements</target>
+        <note>Label of submit button to search within the database (raw search in all fields)</note>
+      </trans-unit>
       <trans-unit id="search" resname="search" approved="yes">
         <source>Search</source>
         <target state="final">Rechercher</target>
@@ -242,6 +252,11 @@
       <trans-unit id="result" resname="result" approved="yes">
         <source>Result</source>
         <target state="final">Résultat</target>
+      </trans-unit>
+      <trans-unit id="no_results" resname="no_results" approved="yes">
+        <source>No results found for "%s".</source>
+        <target state="final">Aucun résultat trouvé pour "%s".</target>
+        <note>Info text in case no results are found for a given search term</note>
       </trans-unit>
       <trans-unit id="tables" resname="tables" approved="yes">
         <source>Tables</source>

@@ -19,6 +19,10 @@
         <source>System Information</source>
         <target state="final">Informations système</target>
       </trans-unit>
+      <trans-unit id="systemmessage.intro.text" resname="systemmessage.intro.text" approved="yes">
+        <source>This is a short system overview. For advanced information please head to: </source>
+        <target state="final">Ceci est un aperçu bref du système. Pour des informations plus détaillées, rendez-vous sur :</target>
+      </trans-unit>
       <trans-unit id="systemmessage.intro.link" resname="systemmessage.intro.link" approved="yes">
         <source>Environment Module</source>
         <target state="final">Module d'environnement</target>

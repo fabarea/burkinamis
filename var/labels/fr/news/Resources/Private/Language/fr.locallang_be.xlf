@@ -9,6 +9,62 @@
       <trans-unit id="pi1_plus_wiz_description" xml:space="preserve" approved="yes">
 				<source>Versatile news system</source>
 			<target state="final">Système de nouvelles polyvalent</target></trans-unit>
+      <trans-unit id="plugin.news_list.title" xml:space="preserve" approved="yes">
+				<source>List articles with detail view</source>
+			<target state="final">Liste des articles avec une vue détaillée</target></trans-unit>
+      <trans-unit id="plugin.news_list.description" xml:space="preserve" approved="yes">
+				<source>Display of articles chosen by various optional properties like storage page, categories,...
+					Plugin is capable of displaying the detail view as well.</source>
+			<target state="final">Affichage des articles déterminé par différentes options comme le dossier de stockage, les catégories, ...
+Le plugin prend également en charge la vue détail.</target></trans-unit>
+      <trans-unit id="plugin.news_list_sticky.title" xml:space="preserve" approved="yes">
+				<source>Sticky article list view</source>
+			<target state="final">Vue liste d'articles épinglés</target></trans-unit>
+      <trans-unit id="plugin.news_list_sticky.description" xml:space="preserve" approved="yes">
+				<source>Display of articles chosen by various optional properties like storage page, categories,...</source>
+			<target state="final">Affichage des articles choisis par diverses propriétés optionnelles telles que la page de stockage, les catégories, ...</target></trans-unit>
+      <trans-unit id="plugin.news_detail.title" xml:space="preserve" approved="yes">
+				<source>Article detail view</source>
+			<target state="final">Vue détaillée de l'article</target></trans-unit>
+      <trans-unit id="plugin.news_detail.description" xml:space="preserve" approved="yes">
+				<source>Display the detail view of an article</source>
+			<target state="final">Afficher la vue détaillée d'un article</target></trans-unit>
+      <trans-unit id="plugin.news_date_menu.title" xml:space="preserve" approved="yes">
+				<source>Date menu of articles</source>
+			<target state="final">Menu de dates des articles</target></trans-unit>
+      <trans-unit id="plugin.news_date_menu.description" xml:space="preserve" approved="yes">
+				<source>Display a menu of months &amp; years of articles. The menu can be used to filter a list view dynamically.</source>
+			<target state="final">Afficher un menu de mois &amp; années d'articles. Le menu peut être utilisé pour filtrer une vue de liste dynamiquement.</target></trans-unit>
+      <trans-unit id="plugin.news_search_form.title" xml:space="preserve" approved="yes">
+				<source>Search form</source>
+			<target state="final">Formulaire de recherche</target></trans-unit>
+      <trans-unit id="plugin.news_search_form.description" xml:space="preserve" approved="yes">
+				<source>Display a search form to let users search within articles</source>
+			<target state="final">Afficher un formulaire de recherche pour permettre aux utilisateurs de rechercher dans les articles</target></trans-unit>
+      <trans-unit id="plugin.news_search_result.title" xml:space="preserve" approved="yes">
+				<source>Search result</source>
+			<target state="final">Résultat de la recherche</target></trans-unit>
+      <trans-unit id="plugin.news_search_result.description" xml:space="preserve" approved="yes">
+				<source>Display the result of the search</source>
+			<target state="final">Afficher les résultats de la recherche</target></trans-unit>
+      <trans-unit id="plugin.news_selected_list.title" xml:space="preserve" approved="yes">
+				<source>Selected list of articles</source>
+			<target state="final">Liste des articles sélectionnés</target></trans-unit>
+      <trans-unit id="plugin.news_selected_list.description" xml:space="preserve" approved="yes">
+				<source>Display a manually picked list of articles.</source>
+			<target state="final">Afficher une liste d'articles sélectionnés manuellement.</target></trans-unit>
+      <trans-unit id="plugin.category_list.title" xml:space="preserve" approved="yes">
+				<source>Category menu</source>
+			<target state="final">Menu des catégories</target></trans-unit>
+      <trans-unit id="plugin.category_list.description" xml:space="preserve" approved="yes">
+				<source>Display a menu of categories. The menu can be used to filter a list view dynamically.</source>
+			<target state="final">Afficher un menu de catégories. Le menu peut être utilisé pour filtrer une vue de liste dynamiquement.</target></trans-unit>
+      <trans-unit id="plugin.tag_list.title" xml:space="preserve" approved="yes">
+				<source>Tag list</source>
+			<target state="final">Liste de tags</target></trans-unit>
+      <trans-unit id="plugin.tag_list.description" xml:space="preserve" approved="yes">
+				<source>Display a list of tags. The list can be used to filter a list view dynamically.</source>
+			<target state="final">Affiche une liste de tags. La liste peut être utilisée pour filtrer une vue de liste dynamiquement.</target></trans-unit>
       <trans-unit id="flexforms_tab.settings" xml:space="preserve" approved="yes">
 				<source>Settings</source>
 			<target state="final">Paramètres</target></trans-unit>
@@ -546,8 +602,10 @@
         <target state="final">La sauvegarde est désactivée</target>
       </trans-unit>
       <trans-unit id="record.savingdisabled.content" approved="yes">
-        <source>This record has the following categories assigned that are not defined in your permissions:</source>
-        <target state="final">Cet enregistrement a les catégories suivantes attribuées mais qui ne sont pas définies dans vos autorisations :</target>
+        <source>This record has the following categories assigned that are not defined in your permissions:
+                </source>
+        <target state="final">Cet enregistrement a les catégories suivantes attribuées mais qui ne sont pas définies dans vos autorisations :
+                </target>
       </trans-unit>
       <trans-unit id="hiddenContentElements.title" approved="yes">
         <source>Content elements are hidden</source>

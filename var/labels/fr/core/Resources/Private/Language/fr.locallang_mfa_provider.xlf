@@ -193,6 +193,10 @@ Chaque code n'est valide que pendant 30 secondes. Vous avez besoin d'une applica
         <source>Setup not possible</source>
         <target state="final">Configuration impossible</target>
       </trans-unit>
+      <trans-unit id="setup.recoveryCodes.noActiveProviders.message" resname="setup.recoveryCodes.noActiveProviders.message" approved="yes">
+        <source>Recovery codes are only meant as a fallback if you lose access to your main multi-factorauthentication credentials. Therefore, please activate a comprehensive MFA provider first.</source>
+        <target state="final">Les codes de récupération sont uniquement considérés comme une solution de secours dans le cas où vous perdez l'accès à vos identifiants d'authentification multifactorielle principaux. Par conséquent, veuillez d'abord activer un fournisseur de MFA complet.</target>
+      </trans-unit>
       <trans-unit id="setup.totpAuthUrlButton.title" resname="setup.totpAuthUrlButton.title" approved="yes">
         <source>Show authentication URL</source>
         <target state="final">Afficher l'URL d'authentification</target>

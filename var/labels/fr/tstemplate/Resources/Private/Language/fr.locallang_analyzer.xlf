@@ -51,6 +51,14 @@
         <source>%s syntax warnings</source>
         <target state="final">Avertissement de syntaxe %s</target>
       </trans-unit>
+      <trans-unit id="panel.info.conditionActiveCount.multiple" resname="panel.info.conditionActiveCount.multiple" approved="yes">
+        <source>%s active conditions</source>
+        <target state="final">%s conditions activées</target>
+      </trans-unit>
+      <trans-unit id="panel.info.conditionActiveCount.single" resname="panel.info.conditionActiveCount.single" approved="yes">
+        <source>%s active condition</source>
+        <target state="final">%s condition activée</target>
+      </trans-unit>
       <trans-unit id="panel.info.conditionWithConstant" resname="panel.info.conditionWithConstant" approved="yes">
         <source>Constant usage: [%s]</source>
         <target state="final">Utilisation de la constante : [%s]</target>

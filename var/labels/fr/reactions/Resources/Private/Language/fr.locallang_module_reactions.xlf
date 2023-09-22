@@ -99,6 +99,14 @@
         <source>Refresh</source>
         <target state="final">ِActualiser</target>
       </trans-unit>
+      <trans-unit id="labels.delete.title" resname="labels.delete.title" approved="yes">
+        <source>Delete reactions</source>
+        <target state="final">Supprimer les réactions</target>
+      </trans-unit>
+      <trans-unit id="labels.delete.message" resname="labels.delete.message" approved="yes">
+        <source>Are you sure you want to delete all marked reactions?</source>
+        <target state="final">Êtes-vous sûr(e) de vouloir supprimer toutes les réactions sélectionnées ?</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

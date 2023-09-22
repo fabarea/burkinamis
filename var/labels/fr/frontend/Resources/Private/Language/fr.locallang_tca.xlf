@@ -637,6 +637,16 @@
         <source>Include TypoScript records</source>
         <target state="final">Inclure les enregistrements TypoScript</target>
       </trans-unit>
+      <trans-unit id="sys_template.basedOnDescription" resname="sys_template.basedOnDescription" approved="yes">
+        <source>Include additional TypoScript records located elsewhere in the page tree. This can be used to load the same TypoScript records at multiple places in a page tree.
+			 	This isn't used very often nowadays and it's often easier to understand and maintain the site by extracting TypoScript configuration to files
+				and to load the full set in a single main TypoScript record.
+			</source>
+        <target state="final">Inclure des enregistrements TypoScript supplémentaires situés ailleurs dans l'arborescence des pages. Ceci peut être utilisé pour charger les mêmes enregistrements TypoScript à plusieurs endroits dans un arborescence.
+			 	Ceci n'est pas utilisé très souvent de nos jours et il est souvent plus facile de comprendre et de maintenir le site en extrayant la configuration TypoScript dans les fichiers
+				et de charger l'ensemble complet dans un seul enregistrement TypoScript principal.
+			</target>
+      </trans-unit>
       <trans-unit id="sys_template.includeStaticAfterBasedOn" resname="sys_template.includeStaticAfterBasedOn" approved="yes">
         <source>Load TypoScript sets after included TypoScript records</source>
         <target state="final">Charger le TypoScript statique après les gabarits TypoScript inclus</target>

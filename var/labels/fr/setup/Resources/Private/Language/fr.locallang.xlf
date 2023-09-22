@@ -47,6 +47,10 @@
         <source>Show help text when applicable</source>
         <target state="final">Afficher l'aide textuelle lorsqu'elle existe</target>
       </trans-unit>
+      <trans-unit id="maxTitleLen" resname="maxTitleLen" approved="yes">
+        <source>Max. title length</source>
+        <target state="final">Taille maximale du titre</target>
+      </trans-unit>
       <trans-unit id="edit_docModuleUpload" resname="edit_docModuleUpload" approved="yes">
         <source>File upload directly in Doc-module</source>
         <target state="final">Uploader des fichiers directement dans le module Doc</target>
@@ -54,6 +58,14 @@
       <trans-unit id="showHiddenFilesAndFolders" resname="showHiddenFilesAndFolders" approved="yes">
         <source>Show hidden files and folders in the filelist</source>
         <target state="final">Afficher les fichiers et dossiers cachés dans la liste des fichiers</target>
+      </trans-unit>
+      <trans-unit id="editFunctionsTab" resname="editFunctionsTab" approved="yes">
+        <source>Edit and advanced functions</source>
+        <target state="final">Édition et fonctions avancées</target>
+      </trans-unit>
+      <trans-unit id="setToStandard" resname="setToStandard" approved="yes">
+        <source>Reset all values to default</source>
+        <target state="final">Revenir aux valeurs par défaut</target>
       </trans-unit>
       <trans-unit id="resetTab" resname="resetTab" approved="yes">
         <source>Reset configuration</source>
@@ -74,6 +86,10 @@
       <trans-unit id="functions" resname="functions" approved="yes">
         <source>Advanced functions</source>
         <target state="final">Fonctions avancées</target>
+      </trans-unit>
+      <trans-unit id="copyLevels" resname="copyLevels" approved="yes">
+        <source>Recursive copy: Enter the number of page sublevels to include, when a page is copied</source>
+        <target state="final">Copie récursive : Entrer le nombre de niveaux de sous-pages à inclure, lorsqu'une page est copiée</target>
       </trans-unit>
       <trans-unit id="activateChanges" resname="activateChanges" approved="yes">
         <source>Notice! In order to activate most of these changes, please reload the backend (eg. logout and login again).</source>
@@ -102,6 +118,10 @@
       <trans-unit id="newPassword" resname="newPassword" approved="yes">
         <source>New password</source>
         <target state="final">Nouveau mot de passe</target>
+      </trans-unit>
+      <trans-unit id="newPasswordAgain" resname="newPasswordAgain" approved="yes">
+        <source>New password (repetition)</source>
+        <target state="final">Nouveau mot de passe (répétition)</target>
       </trans-unit>
       <trans-unit id="newPassword_ok" resname="newPassword_ok" approved="yes">
         <source>Password was updated.</source>

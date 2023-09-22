@@ -4,6 +4,10 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
 
 
+plugin.tx_news.view.twb5.templateRootPath = EXT:site_package/Resources/Private/Extensions/News/Templates/
+plugin.tx_news.view.twb5.partialRootPath = EXT:site_package/Resources/Private/Extensions/News/Partials/
+plugin.tx_felogin_login.view.templateRootPath = EXT:site_package/Resources/Private/Extensions/FeLogin/Templates/
+
 ############
 ### PAGE ###
 ############

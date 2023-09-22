@@ -8,23 +8,19 @@ languages:
   -
     title: Français
     enabled: true
-    languageId: 0
+    locale: fr_CH
     base: /
-    typo3Language: default
-    locale: fr_CH.UTF-8
-    iso-639-1: en
-    navigationTitle: Français
-    hreflang: en-US
-    direction: ''
-    flag: fr
     websiteTitle: ''
+    navigationTitle: Français
+    flag: fr
+    languageId: 0
   -
-    title: Allemand
+    title: Deutsch
     enabled: true
-    locale: de-CH
-    base: /de
-    websiteTitle: Burkinamis
-    navigationTitle: ''
+    locale: de_CH
+    base: /de/
+    websiteTitle: ''
+    navigationTitle: Deutsch
     fallbackType: strict
     fallbacks: ''
     flag: de

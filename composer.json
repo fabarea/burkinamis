@@ -20,6 +20,8 @@
 		"sort-packages": true
 	},
 	"require": {
+		"b13/container": "^2.3",
+		"b13/container-example": "^2.0",
 		"fab/site-package": "@dev",
 		"georgringer/news": "^11.2",
 		"helhum/typo3-console": "^8.0",

@@ -18,3 +18,8 @@ mod.web_layout.BackendLayouts {
         4 >
     }
 }
+
+tx_news.templateLayouts {
+    1 = Vue "liste"
+    10 = Vue "dernières nouvelles"
+}

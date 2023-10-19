@@ -1,8 +1,8 @@
 ######################
 #### DEPENDENCIES ####
 ######################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
-
+@import 'EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript'
+@import 'EXT:site_package/Configuration/TypoScript/Plugins/tx_sitepackage_highlight.typoscript'
 
 plugin.tx_news.view.twb5.templateRootPath = EXT:site_package/Resources/Private/Extensions/News/Templates/
 plugin.tx_news.view.twb5.partialRootPath = EXT:site_package/Resources/Private/Extensions/News/Partials/
@@ -20,9 +20,11 @@ page {
         alt = Site Package
         linktitle = Site Package
     }
+
     favicon {
         file = EXT:site_package/Resources/Public/Icons/favicon.ico
     }
+
     fluidtemplate {
         layoutRootPath = EXT:site_package/Resources/Private/Layouts/Page/
         partialRootPath = EXT:site_package/Resources/Private/Partials/Page/

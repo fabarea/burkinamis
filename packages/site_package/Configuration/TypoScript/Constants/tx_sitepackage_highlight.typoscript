@@ -1,0 +1,19 @@
+plugin.tx_sitepackage_highlight {
+    settings {
+
+    }
+
+    view {
+        # cat=sitepackage_highlight; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:site_package/Resources/Private/Templates/
+        # cat=sitepackage_highlight; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:site_package/Resources/Private/Partials/
+        # cat=sitepackage_highlight; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:site_package/Resources/Private/Layouts/
+    }
+
+    persistence {
+        # cat=sitepackage_highlight; type=string; label=Default storage PID
+        storagePid =
+    }
+}

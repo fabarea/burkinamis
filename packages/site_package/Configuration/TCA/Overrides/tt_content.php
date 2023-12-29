@@ -5,7 +5,7 @@
     \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
         'SitePackage',
         'Highlight',
-        'Highlight'
+        'Organisation à la une'
     );
 
     // Exclude list from TCA

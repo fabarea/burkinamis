@@ -19,7 +19,8 @@ class OrganizationRepository
             ->select('*')
             ->from($this->tableName)
             ->where(
-                $qb->expr()->eq('pid', $qb->createNamedParameter($this->rootPage, \PDO::PARAM_INT))
+                $qb->expr()->eq('pid', $qb->createNamedParameter($this->rootPage, \PDO::PARAM_INT)),
+                $qb->expr()->isNotNull('description')
             )
             ->executeQuery()
             ->fetchAllAssociative();

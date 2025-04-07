@@ -53,6 +53,11 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
+        'form_crshield' => [
+            'additionalPageExpirationTime' => '3600',
+            'crJavaScriptDelay' => '3',
+            'minimumPageExpirationTime' => '900',
+        ],
         'indexed_search' => [
             'catdoc' => '/usr/bin/',
             'debugMode' => '0',
